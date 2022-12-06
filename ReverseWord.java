@@ -15,7 +15,9 @@
  		System.out.println("Enter a word to reverse:");
 
  		String word = scanner.nextLine();
-        String reverse = new StringBuilder(word).reverse().toString();
+   
+   //Use StringBuilder class's reverse() method 
+   String reverse = new StringBuilder(word).reverse().toString();
  		System.out.println("The reverse of \'%s\' is \'%s\'.%n".formatted(word, reverse));
 
  		scanner.close();
